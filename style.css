@@ -68,7 +68,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .container .logo {
-    max-height: 40vh;
+    max-height: 55vh;
   }
   .container .company-description {
     margin: 1rem;
@@ -90,7 +90,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .container .logo {
-    max-height: 45vh;
+    max-height: 55vh;
   }
   .container .company-description {
     margin: 0rem 5rem;
