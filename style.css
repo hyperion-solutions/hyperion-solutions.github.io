@@ -89,44 +89,43 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .container .logo {
+  .custom-container {
+    margin: 1rem 5rem;
+  }
+  .custom-container .logo {
     max-height: 55vh;
   }
-  .container .company-description {
-    margin: 1rem;
-    text-align: center;
-  }
-  .container .custom-header {
+  .custom-container .custom-header {
     font-size: 1.2rem;
   }
-  .container .secondary-header {
+  .custom-container .secondary-header {
     font-size: 0.9rem;
     text-align: center;
   }
-  .container .social-container {
+  .custom-container .social-container {
     gap: 15px;
   }
-  .container .social-icon {
+  .custom-container .social-icon {
     font-size: 25px;
   }
 }
 @media screen and (max-width: 768px) {
-  .container .logo {
+  .custom-container {
+    margin: 1rem 5rem;
+  }
+  .custom-container .logo {
     max-height: 55vh;
   }
-  .container .company-description {
-    margin: 0rem 5rem;
-  }
-  .container .custom-header {
+  .custom-container .custom-header {
     font-size: 1.5rem;
   }
-  .container .secondary-header {
+  .custom-container .secondary-header {
     font-size: 1rem;
   }
-  .container .social-container {
+  .custom-container .social-container {
     gap: 20px;
   }
-  .container .social-icon {
+  .custom-container .social-icon {
     font-size: 28px;
   }
 }

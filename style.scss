@@ -104,14 +104,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .container {
+    .custom-container {
+        margin: 1rem 5rem;
+        
         .logo {
             max-height: 55vh;
-        }
-
-        .company-description {
-            margin: 1rem;
-            text-align: center;
         }
 
         .custom-header {
@@ -134,13 +131,11 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .custom-container {
+        margin: 1rem 5rem;
+
         .logo {
             max-height: 55vh;
-        }
-
-        .company-description {
-            margin: 0rem 5rem;
         }
 
         .custom-header {
